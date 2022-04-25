@@ -3,7 +3,7 @@ from datetime import datetime
 
 import requests
 
-USERNAME = "aadeybolar"
+USERNAME = os.environ.get("USERNAME")
 PASSWORD = os.environ.get("PASSWORD")
 
 today = datetime.now()
